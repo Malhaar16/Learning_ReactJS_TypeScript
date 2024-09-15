@@ -1,9 +1,9 @@
 # Learning_ReactJS_TypeScript
 
-##This is my journey to learn ReactJs using Typescript template. Let me know if this project is useful to you or not.
+## This is my journey to learn ReactJs using Typescript template. Let me know if this project is useful to you or not.
 
-Direction to use this project to your local computer
-Open cmd, check for git --> git -v
+## Direction to use this project to your local computer
+1. Open cmd, check for git --> git -v
 Note: If git already exist in your system igore 2. instruction and move on to 3. instruction.
 2. To install git to your system, Go to " https://git-scm.com/downloads " and install as per your respective OS.
 3. Go to the folder where you want this project to store in your system using terminal command, after reaching their use command " git clone https://github.com/Malhaar16/Learning_ReactJS_TypeScript.git " and make a clone of this projcet.
