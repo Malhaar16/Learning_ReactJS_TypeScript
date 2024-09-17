@@ -1,9 +1,9 @@
 //import ListGroup from "./components/ListGroup";
 // <ListGroup />
 
-import { useState } from "react";
-import NavBar from "./components/NavBar";
-import Cart from "./components/Cart";
+//import { useState } from "react";
+// import NavBar from "./components/NavBar";
+// import Cart from "./components/Cart";
 import Form from "./components/Form";
 /***Rules/Convention to follow while using ReactJS
  * Pacal Casing --> menas naming the function name with first letter capital letter
@@ -20,12 +20,12 @@ function App() {
   //D2 --> Concept
   //Learning how to share a state hook with two component
   //--> Using E-Comenrece website where user add the product to the cart and also get updated to navbar --> Take a look at walmart or amazon website for reference
-  const [cartItem, setCartItem] = useState(['Product1', 'Product2']);
+  // const [cartItem, setCartItem] = useState(['Product1', 'Product2']);
 
-  const handleAddItem = () =>{
-    const newItem = "Product"+(cartItem.length+1)
-    setCartItem([...cartItem, newItem]);
-  }
+  // const handleAddItem = () =>{
+  //   const newItem = "Product"+(cartItem.length+1)
+  //   setCartItem([...cartItem, newItem]);
+  // }
 
 
   //D2 --> Exercise: 1
