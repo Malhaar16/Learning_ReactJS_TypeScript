@@ -4,9 +4,10 @@
 //import { useState } from "react";
 // import NavBar from "./components/NavBar";
 // import Cart from "./components/Cart";
-import Form from "./components/Form";
-import Form2 from "./components/Form2";
-import FormGrocery from "./components/FormGrocery";
+// import Form from "./components/Form";
+// import Form2 from "./components/Form2";
+import Form3 from "./components/Form3";
+//import FormGrocery from "./components/FormGrocery";
 /***Rules/Convention to follow while using ReactJS
  * Pacal Casing --> menas naming the function name with first letter capital letter
  * If making components use the .tsx extensions
@@ -89,7 +90,10 @@ function App() {
       {/*  */}
         {/* <Form /> */}
         {/* <FormGrocery /> */}
-        <Form2 />
+        {/* <Form2 /> */}
+
+        <Form3 />
+        
     </div>
   );
 }
