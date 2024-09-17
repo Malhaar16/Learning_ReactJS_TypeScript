@@ -4,6 +4,7 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
 import Cart from "./components/Cart";
+import Form from "./components/Form";
 /***Rules/Convention to follow while using ReactJS
  * Pacal Casing --> menas naming the function name with first letter capital letter
  * If making components use the .tsx extensions
@@ -79,9 +80,12 @@ function App() {
       {/* <Button alert="This is the alert that number should not be above 20"/>; */}
 
       {/* D2 */}
-      <NavBar cartItemsCount={cartItem.length}/>
-      <Cart cartItems={cartItem} addItem={handleAddItem} onClear={()=> setCartItem([])}/>
+      {/* <NavBar cartItemsCount={cartItem.length}/>
+      <Cart cartItems={cartItem} addItem={handleAddItem} onClear={()=> setCartItem([])}/> */}
 
+      {/* D3 Learn How to build forms */}
+      {/*  */}
+        <Form />
     </div>
   );
 }

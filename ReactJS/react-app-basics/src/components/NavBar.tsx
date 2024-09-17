@@ -1,6 +1,6 @@
 /**
  ** Note: Don't use the following shortcut every time, it is just for time saving
- * To create the basic template for the component install ES7+ Teact/Redux extention and then type"rafce" and press enter*/
+ * To create the basic template for the component install ES7+ Teact/Redux extention and then type"rafce" means "React Arrow Function Export Component" and press enter*/
 
  interface Props{
     cartItemsCount: number
