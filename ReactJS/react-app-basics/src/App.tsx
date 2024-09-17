@@ -5,6 +5,8 @@
 // import NavBar from "./components/NavBar";
 // import Cart from "./components/Cart";
 import Form from "./components/Form";
+import Form2 from "./components/Form2";
+import FormGrocery from "./components/FormGrocery";
 /***Rules/Convention to follow while using ReactJS
  * Pacal Casing --> menas naming the function name with first letter capital letter
  * If making components use the .tsx extensions
@@ -85,7 +87,9 @@ function App() {
 
       {/* D3 Learn How to build forms */}
       {/*  */}
-        <Form />
+        {/* <Form /> */}
+        {/* <FormGrocery /> */}
+        <Form2 />
     </div>
   );
 }
