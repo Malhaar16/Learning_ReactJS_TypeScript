@@ -1,15 +1,21 @@
-import Picture from "./components/Picture";
+//import Picture from "./components/Picture";
+
+import Board from "./components/Board";
 
 function App() {
   return (
-    <div>
-      <h1>
-        React LOGO
-      </h1>
-      <Picture />
-      <Picture />
-      <Picture />
-    </div>
+    // <div>
+      
+    //   {/* Warm Up Exercise */}
+    //   {/* <Picture />
+    //   <Picture />
+    //   <Picture /> */}
+    // </div>
+
+
+    <>
+      <Board />
+    </>
   );
 }
 

@@ -5,7 +5,9 @@ const Picture = () => {
 export default Picture
 
 
-/**
+/*
+ ** Warm-Up Exercise
+ 
  * You’ve just gotten your first taste of React! Let’s recap some key points.
 
 React lets you create components, reusable UI elements for your app.
